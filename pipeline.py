@@ -245,7 +245,7 @@ def main():
         return
 
     # Download video
-    gdrive_link = 'https://drive.google.com/file/d/1IQwH4d003zUaRp9K4h86WifXGJlGoeHW/view?usp=sharing'
+    gdrive_link = 'ADD_YOUR_VIDEO_GDRIVE_LINK'
     mp4_file = os.path.join(BASE_DIR, "downloaded_file.mp4")
     if not os.path.exists(mp4_file):
         download_gdrive_file(gdrive_link, mp4_file)
@@ -315,7 +315,7 @@ def main():
     # Send summary via email
     if summary and tasks:
         try:
-            recipients = ["madladthe9@gmail.com", "niasanjeev17@gmail.com"]  # Replace with actual emails
+            recipients = ["example@gmail.com"]  # Replace with actual emails
             # Optional: Prompt for recipients
             # recipients_input = input("Enter recipient email addresses (comma-separated): ")
             # recipients = [r.strip() for r in recipients_input.split(",")]
