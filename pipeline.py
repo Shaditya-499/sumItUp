@@ -15,7 +15,7 @@ import base64
 from email.mime.text import MIMEText
 
 # Base directory
-BASE_DIR = r"C:\Users\shadi\Desktop\AIqod"
+BASE_DIR = r"YOUR_WORKING_DIR"
 SCOPES = ["https://www.googleapis.com/auth/gmail.send"]
 
 # Download function for Google Drive
