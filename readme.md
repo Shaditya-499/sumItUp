@@ -18,7 +18,7 @@ This project processes a video file from Google Drive, extracts audio, transcrib
 ## Setup
 
 ### 1. Clone or Copy the Script
-- Place `pipeline.py` in `C:\Users\shadi\Desktop\AIqod`.
+- git clone https://github.com/Shaditya-499/sumItUp.
 
 ### 2. Install FFmpeg
 1. Download FFmpeg from [ffmpeg.org](https://ffmpeg.org/download.html) or [gyan.dev](https://www.gyan.dev/ffmpeg/builds/).
